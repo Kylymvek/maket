@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 30px 100px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+}
+.nav-bar div {
+  margin: 0 20px;
+}
+
+.links a {
+  text-decoration: none;
+}
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.manage {
+  width: 600px;
+  font-size: 55px;
+  text-align: center;
+}
+.paragraph {
+  width: 450px;
+  margin: 20px 0;
+  text-align: center;
+  color: #4e5a65;
+}
+
+.overview {
+  display: flex;
+  justify-content: center;
+}
